@@ -1,5 +1,7 @@
+
 body{
     margin: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .page {
@@ -13,6 +15,8 @@ nav{
     align-content: center;
 
     margin-bottom: 56px;
+
+    font-family: "Mulish", sans-serif;
 }
 
 ul{
@@ -21,8 +25,49 @@ ul{
     gap: 48px;
     margin: 0;
     padding: 0;
+
+    font-family: "Mulish", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #1F1534;
 }
 
-main{
-    
+ul li a:hover{
+    font-weight: bolder;
+}
+
+h1{
+    font-family: "Mulish", sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    font-weight: none;
+
+    width: 490px;
+}
+
+h1 span{
+    color: #89c5cc;
+    font-weight: bold;
+}
+
+p{
+    color: #7d7987 ;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+button{
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px ;
+}
+
+footer a{
+    font-weight: bold;
 }
