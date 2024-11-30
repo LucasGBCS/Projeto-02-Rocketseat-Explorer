@@ -2,11 +2,14 @@
 body{
     margin: 0px;
     font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180deg, rgb(238, 255, 245) 82.08%, rgba(38, 127, 105, 0.5) 100%);
+    min-height: 100vh;
 }
 
 .page {
     width: 1000px;
-    margin: 65px auto 0;
+    margin: 0 auto;
+    padding-top: 65px;
 }
 
 nav{
@@ -35,6 +38,11 @@ a {
 
 ul li a:hover{
     font-weight: bolder;
+    opacity: 1;
+}
+
+ul li a{
+    opacity: 0.5;
 }
 
 main{
@@ -66,23 +74,49 @@ section p{
 }
 
 button{
+    color: white;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
+
+    background: #69B99D;
+    border: 0;
+    padding: 14px 32px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+
+    border-radius: 4px;
+    cursor: pointer;
+       
+}
+
+button:hover{
+    background: #4e8c76;
 }
 
 footer{
     font-size: 14px;
-    line-height: 28px ;
+    line-height: 28px;
+    text-transform: uppercase;
 
 
     text-align: center;
     margin-top: 80px;
 }
+footer strong:hover{
+    font-size: 16px;
+}
 
 footer a{
     font-weight: bold;
-}
+    }
 
-balls{
-    
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
 }
